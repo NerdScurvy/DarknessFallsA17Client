@@ -1,0 +1,4 @@
+<configs>
+	<!-- Death Debuff Timer (Seconds)                                    New -->
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">200</set>
+</configs>

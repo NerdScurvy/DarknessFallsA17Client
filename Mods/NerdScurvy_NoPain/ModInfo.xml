@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Nerd's No Pain mod" />
+        <Description value="This modlet removes the pain sounds from the power attacks" />
+        <Author value="NerdScurvy" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

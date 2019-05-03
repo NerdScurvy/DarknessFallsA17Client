@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Ralphs Prefab" />
+        <Description value="Adds Ralphs prefab to the rwgmixer to be spawned in towns" />
+        <Author value="RickyRalph" />
+        <Version value="1" />
+    </ModInfo>
+</xml>

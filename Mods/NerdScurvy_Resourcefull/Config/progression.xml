@@ -1,0 +1,6 @@
+<configs>
+
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.4,2</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='BlockDamage']/@value">.4,2</set>
+	
+</configs>

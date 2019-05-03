@@ -1,0 +1,25 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='36']"> <!-- Suitcase -->
+		<item name="zombiePinup01" count="1" prob="0.10"/>
+		<item name="zombiePinup02" count="1" prob="0.10"/>
+		<item name="zombiePinup03" count="1" prob="0.10"/>
+		<item name="zombiePinup04" count="1" prob="0.10"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']"> <!-- Lockers -->
+		<item name="zombiePinup01" count="1" prob="0.15"/>
+		<item name="zombiePinup02" count="1" prob="0.15"/>
+		<item name="zombiePinup03" count="1" prob="0.15"/>
+		<item name="zombiePinup04" count="1" prob="0.15"/>
+    </append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='44']"> <!-- Filing Cabinet -->
+		<item name="zombiePinup01" count="1" prob="0.15"/>
+		<item name="zombiePinup02" count="1" prob="0.15"/>
+		<item name="zombiePinup03" count="1" prob="0.15"/>
+		<item name="zombiePinup04" count="1" prob="0.15"/>
+	</append>
+	
+
+</configs>

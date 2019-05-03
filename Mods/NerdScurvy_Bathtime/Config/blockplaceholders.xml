@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/blockplaceholders/placeholder[@name='cntBathTubsRandomLootHelper']">	
+	    <block name="BathtubClaw" prob="0.35"/>
+	</append>
+	
+	<setattribute xpath="/blockplaceholders/placeholder[@name='cntBathTubsRandomLootHelper']/block[@name='cntBathTubEmpty']" name="prob">0.45</setattribute>
+</configs>

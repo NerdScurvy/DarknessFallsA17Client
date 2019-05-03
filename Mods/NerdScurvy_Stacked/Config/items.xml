@@ -1,0 +1,15 @@
+<configs>
+	<set xpath="//property[@name='Stacknumber'][@value='1000']/@value">6000</set>
+	<set xpath="//property[@name='Stacknumber'][@value='1200']/@value">6000</set>
+	<set xpath="//property[@name='Stacknumber'][@value='500']/@value">1000</set>
+	<set xpath="//property[@name='Stacknumber'][@value='250']/@value">500</set>
+	<set xpath="//property[@name='Stacknumber'][@value='15']/@value">30</set>
+	<set xpath="//property[@name='Stacknumber'][@value='5']/@value">10</set>
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">500</set>
+	<append xpath="/items/item[@name='drinkJarSnowberryJuice']">
+		<property name="Stacknumber" value="30" /> 
+	</append>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">30</set>
+	
+</configs>

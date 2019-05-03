@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Nerd's Stacked mod" />
+        <Description value="This modlet increases stack sizes of various items" />
+        <Author value="NerdScurvy" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

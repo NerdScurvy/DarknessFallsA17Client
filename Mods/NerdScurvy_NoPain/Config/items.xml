@@ -1,0 +1,5 @@
+<configs>
+	<!-- Remove pain sounds -->
+    <remove xpath="//triggered_effect[@sound='player2painlg']"/>
+    <remove xpath="//triggered_effect[@sound='player1painlg']"/>
+</configs>

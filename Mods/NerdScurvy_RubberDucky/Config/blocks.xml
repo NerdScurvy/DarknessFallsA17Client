@@ -1,0 +1,43 @@
+<configs>
+	<append xpath="/blocks">	
+		<block name="rubberDucky">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="false"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuck" />
+			<property name="CustomIcon" value="rubberDuck" />
+		</block>
+		<block name="rubberDuckyWhite">
+			<property name="Extends" value="rubberDucky"/>
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuckWhite" />
+			<property name="CustomIcon" value="rubberDuckWhite" />
+		</block> 
+		<block name="rubberDuckyPink">
+			<property name="Extends" value="rubberDucky"/>
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuckPink" />
+			<property name="CustomIcon" value="rubberDuckPink" />
+		</block> 		
+		<block name="rubberDuckyPurple">
+			<property name="Extends" value="rubberDucky"/>
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuckPurple" />
+			<property name="CustomIcon" value="rubberDuckPurple" />
+		</block> 		
+		<block name="rubberDuckyOrange">
+			<property name="Extends" value="rubberDucky"/>
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuckOrange" />
+			<property name="CustomIcon" value="rubberDuckOrange" />
+		</block> 		
+		<block name="rubberDuckyBlue">
+			<property name="Extends" value="rubberDucky"/>
+			<property name="Model" value="#@modfolder:Resources/RubberDucky.unity3d?BlockRubberDuckBlue" />
+			<property name="CustomIcon" value="rubberDuckBlue" />
+		</block> 		
+
+
+	</append>
+</configs>

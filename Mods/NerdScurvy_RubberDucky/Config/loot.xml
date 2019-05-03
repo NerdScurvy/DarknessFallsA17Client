@@ -1,0 +1,53 @@
+<configs>
+	<!-- Adding Lockpicks to loot lists so they can be found in the world -->
+	<append xpath="/lootcontainers/lootcontainer[@id='6']"> <!-- Nightstands -->
+		<item name="rubberDucky" count="1" prob="0.02"/>
+		<item name="rubberDuckyBlue" count="1" prob="0.01"/>
+		<item name="rubberDuckyWhite" count="1" prob="0.01"/>
+		<item name="rubberDuckyOrange" count="1" prob="0.01"/>
+		<item name="rubberDuckyPink" count="1" prob="0.01"/>
+		<item name="rubberDuckyPurple" count="1" prob="0.01"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='7']"> <!-- Medicine Cabinets -->
+		<item name="rubberDucky" count="1" prob="0.5"/>
+		<item name="rubberDuckyBlue" count="1" prob="0.025"/>
+		<item name="rubberDuckyWhite" count="1" prob="0.025"/>
+		<item name="rubberDuckyOrange" count="1" prob="0.025"/>
+		<item name="rubberDuckyPink" count="1" prob="0.025"/>
+		<item name="rubberDuckyPurple" count="1" prob="0.025"/>
+
+
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='9']"> <!-- Backpacks -->
+		<item name="rubberDucky" count="1" prob="0.02"/>
+		<item name="rubberDuckyBlue" count="1" prob="0.01"/>
+		<item name="rubberDuckyWhite" count="1" prob="0.01"/>
+		<item name="rubberDuckyOrange" count="1" prob="0.01"/>
+		<item name="rubberDuckyPink" count="1" prob="0.01"/>
+		<item name="rubberDuckyPurple" count="1" prob="0.01"/>
+		
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='36']"> <!-- Suitcase -->
+		<item name="rubberDucky" count="1" prob="0.03"/>
+		<item name="rubberDuckyBlue" count="1" prob="0.02"/>
+		<item name="rubberDuckyWhite" count="1" prob="0.02"/>
+		<item name="rubberDuckyOrange" count="1" prob="0.02"/>
+		<item name="rubberDuckyPink" count="1" prob="0.02"/>
+		<item name="rubberDuckyPurple" count="1" prob="0.02"/>
+		
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='43']"> <!-- Lockers -->
+		<item name="rubberDucky" count="1" prob="0.2"/>
+		<item name="rubberDuckyBlue" count="1" prob="0.025"/>
+		<item name="rubberDuckyWhite" count="1" prob="0.025"/>
+		<item name="rubberDuckyOrange" count="1" prob="0.025"/>
+		<item name="rubberDuckyPink" count="1" prob="0.025"/>
+		<item name="rubberDuckyPurple" count="1" prob="0.025"/>
+		
+	</append>
+	
+</configs>

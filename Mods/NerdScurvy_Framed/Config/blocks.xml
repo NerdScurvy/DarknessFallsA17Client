@@ -1,0 +1,192 @@
+
+<configs>
+	<append xpath="/blocks">	
+		<block name="paintingLeaf">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingLeaf" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingLeaf" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingLeaf"/>
+		</block>
+		<block name="paintingKitten">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingKitten" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingKitten" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingKitten"/>
+		</block>		
+		<block name="paintingLlama">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingLlama" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingLlama" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingLlama"/>
+		</block>			
+		<block name="paintingWatermelon">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingWatermelon" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingWatermelon" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingWatermelon"/>
+		</block>			
+		<block name="paintingMonaLisa">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingMonaLisa" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingMonaLisa" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingMonaLisa"/>
+		</block>			
+		<block name="paintingMonarch">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingMonarch" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingMonarch" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingMonarch"/>
+		</block>	
+		<block name="paintingSunset">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingSunset" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingSunset" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingSunset"/>
+		</block>	
+		<block name="paintingAmericanGothic">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingAmericanGothic" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingAmericanGothic" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingAmericanGothic"/>
+		</block>	
+		<block name="paintingHorse">
+		    <property name="Extends" value="paintingBen"/>
+			<property name="CustomIcon" value="paintingHorse" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Painting.unity3d?BlockPaintingHorse" />
+			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket" />
+			<drop event="Destroy" count="1" name="paintingHorse"/>
+		</block>	
+		
+		
+		<block name="hiddenSafePaintingLeaf">
+			<property name="Extends" value="paintingLeaf"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+
+		<block name="hiddenSafePaintingKitten">
+			<property name="Extends" value="paintingKitten"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+
+		<block name="hiddenSafePaintingLlama">
+			<property name="Extends" value="paintingLlama"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		
+		<block name="hiddenSafePaintingWatermelon">
+			<property name="Extends" value="paintingWatermelon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		
+		<block name="hiddenSafePaintingMonaLisa">
+			<property name="Extends" value="paintingLeaf"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		
+		<block name="hiddenSafePaintingMonarch">
+			<property name="Extends" value="paintingMonarch"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+
+		<block name="hiddenSafePaintingSunset">
+			<property name="Extends" value="paintingSunset"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		<block name="hiddenSafePaintingAmericanGothic">
+			<property name="Extends" value="paintingAmericanGothic"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		<block name="hiddenSafePaintingHorse">
+			<property name="Extends" value="paintingHorse"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>		
+		
+	</append>
+	
+	
+	<!--<append xpath="/blocks/block[@name='paintingBen']">
+	    <drop event="Destroy" count="1" name="paintingBen"/>
+	</append>-->
+
+	<append xpath="/blocks/block[@name='paintingLorien']">
+	    <drop event="Destroy" count="1" name="paintingLorien"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='paintingDerek']">
+	    <drop event="Destroy" count="1" name="paintingDerek"/>
+	</append>	
+	
+	<append xpath="/blocks/block[@name='paintingNoah']">
+	    <drop event="Destroy" count="1" name="paintingNoah"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='paintingDuke']">
+	    <drop event="Destroy" count="1" name="paintingDuke"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='paintingKen']">
+	    <drop event="Destroy" count="1" name="paintingKen"/>
+	</append>	
+	
+
+	<append xpath="/blocks/block[@name='hiddenSafePaintingBen']">
+	    <drop event="Destroy" count="1" name="paintingBen"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='hiddenSafePaintingLorien']">
+	    <drop event="Destroy" count="1" name="paintingLorien"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDerek']">
+	    <drop event="Destroy" count="1" name="paintingDerek"/>
+	</append>	
+	
+	<append xpath="/blocks/block[@name='hiddenSafePaintingNoah']">
+	    <drop event="Destroy" count="1" name="paintingNoah"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='hiddenSafePaintingDuke']">
+	    <drop event="Destroy" count="1" name="paintingDuke"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='hiddenSafePaintingKen']">
+	    <drop event="Destroy" count="1" name="paintingKen"/>
+	</append>	
+
+	
+</configs>

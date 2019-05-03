@@ -1,0 +1,29 @@
+<configs>
+	<append xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']">	
+	    <block name="paintingLeaf" prob="1"/>
+		<block name="paintingKitten" prob="1"/>
+		<block name="paintingLlama" prob="1"/>
+		<block name="paintingMonaLisa" prob="1"/>
+		<block name="paintingWatermelon" prob="1"/>
+		<block name="paintingMonarch" prob="1"/>
+		<block name="paintingSunset" prob="1"/>
+		<block name="paintingAmericanGothic" prob="1"/>
+		<block name="paintingHorse" prob="1"/>
+	</append>
+	
+	<append xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']">	
+	    <block name="hiddenSafePaintingLeaf" prob="1"/>
+		<block name="hiddenSafePaintingKitten" prob="1"/>
+		<block name="hiddenSafePaintingLlama" prob="1"/>
+		<block name="hiddenSafePaintingMonaLisa" prob="1"/>
+		<block name="hiddenSafePaintingWatermelon" prob="1"/>
+		<block name="hiddenSafePaintingMonarch" prob="1"/>
+		<block name="hiddenSafePaintingSunset" prob="1"/>
+		<block name="hiddenSafePaintingAmericanGothic" prob="1"/>
+		<block name="hiddenSafePaintingHorse" prob="1"/>
+		
+	</append>
+	
+	
+	
+</configs>

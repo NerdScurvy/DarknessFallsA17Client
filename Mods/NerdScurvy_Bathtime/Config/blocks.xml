@@ -1,0 +1,27 @@
+<configs>
+	<append xpath="/blocks">	
+	
+		<block name="BathtubClaw">
+		    <property name="CustomIcon" value="bathtubClaw" />
+			<property name="Material" value="MstoneNoGlue"/>
+			<property name="MaxDamage" value="200"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Path" value="solid"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/Bathtub.unity3d?BlockBathtub" />
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property class="RepairItems"> 
+				<property name="resourceCobblestones" value="10"/> 
+			</property>
+			
+			<drop event="Destroy" name="BathtubClaw" count="1"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.1" stick_chance="0.5"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="DescriptionKey" value="decorationBlockGroupDesc"/>
+		</block>
+	
+	</append>
+
+</configs>

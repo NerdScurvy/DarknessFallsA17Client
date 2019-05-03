@@ -1,0 +1,6 @@
+<configs>
+    <!-- Extend range of auger and size of fuel tank -->
+	<set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MaxRange']/@value">3.4</set>
+	<set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">400</set>
+	
+</configs>
