@@ -593,8 +593,12 @@
 		<objective type="ZombieKill" id="zombieSnow" value="3" phase="3" />
 
 		<requirement type="Group" id="requirementGroupFireaxe" value="OR" phase="3">
+			<requirement type="Holding" id="DFmeleeToolFireaxeScrap" />
 			<requirement type="Holding" id="meleeToolFireaxeIron" />
 			<requirement type="Holding" id="meleeToolFireaxeSteel" />
+			<requirement type="Holding" id="DFmeleeToolFireaxeTitanium" />
+			<requirement type="Holding" id="DFmeleeToolcombatAxe" />
+			<requirement type="Holding" id="DFmeleeTooltitaniumCombatAxe" />
 		</requirement>
 
 		<objective type="InteractWithNPC">

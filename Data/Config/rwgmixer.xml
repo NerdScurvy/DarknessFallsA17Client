@@ -374,7 +374,7 @@
 		
 	
 		<prefab_rule name="wildernessGroup">
-			<prefab rule="traderGroup" prob="2.0"/>
+			<prefab rule="traderGroup" prob="0.5"/>
 			<prefab rule="W_POIs_common" prob="0.6"/>
 			<prefab rule="W_POIs_rare" prob="0.4"/>
 			<prefab rule="W_POIs_superrare" prob="0.1"/>

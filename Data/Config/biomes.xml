@@ -1187,7 +1187,7 @@ If you do not declare them, the decorations of the main biome are used.
 
 		<subbiome prob="0.02"> <!-- Wasteland_hub Sub Biome Radiation and Corpses -->
 			<layers>
-				<layer depth="5" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusIron" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="5" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusIron" prob="0.071" rwgGenerationType="all"/> </layer>
 				<layer depth="*" blockname="terrStone">
 					<resource blockname="terrOreIron" prob="0.3100" rwgGenerationType="all"/>
 					<resource blockname="terrOreGravelPlusIron" prob="0.4130" rwgGenerationType="all"/>
@@ -1219,7 +1219,7 @@ If you do not declare them, the decorations of the main biome are used.
 
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: leadOre -->
 			<layers>
-				<layer depth="3" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusLead" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusLead" prob="0.071" rwgGenerationType="all"/> </layer>
 				<layer depth="2" blockname="terrDirt"> <resource blockname="terrOreGravelPlusLead" prob="0.321" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"> <resource blockname="terrOreGravelPlusLead" prob="0.4130" rwgGenerationType="all"/> </layer>
 				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreLead" prob="0.3100" rwgGenerationType="all"/> <resource blockname="terrOreGravelPlusLead" prob="0.4130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="terrStone"/> <layer depth="3" blockname="terrBedrock"/>
@@ -1227,7 +1227,7 @@ If you do not declare them, the decorations of the main biome are used.
 		</subbiome>
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: coalOre -->
 			<layers>
-				<layer depth="3" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusCoal" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusCoal" prob="0.071" rwgGenerationType="all"/> </layer>
 				<layer depth="2" blockname="terrDirt"> <resource blockname="terrOreGravelPlusCoal" prob="0.321" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"> <resource blockname="terrOreGravelPlusCoal" prob="0.4130" rwgGenerationType="all"/> </layer>
 				<layer depth="*" blockname="terrStone"> <resource blockname="terrOreCoal" prob="0.3100" rwgGenerationType="all"/> <resource blockname="terrOreGravelPlusCoal" prob="0.4130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="terrStone"/> <layer depth="3" blockname="terrBedrock"/>
@@ -1235,7 +1235,7 @@ If you do not declare them, the decorations of the main biome are used.
 		</subbiome>
 		<subbiome prob="0.1551"> <!-- Ore Sub Biome: potassiumNitrate -->
 			<layers>
-				<layer depth="3" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusPotassium" prob="0.071" rwgGenerationType="all"/> </layer>
+				<layer depth="3" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusPotassium" prob="0.071" rwgGenerationType="all"/> </layer>
 				<layer depth="2" blockname="terrDirt"> <resource blockname="terrOreGravelPlusPotassium" prob="0.321" rwgGenerationType="all"/> </layer>
 				<layer depth="1" blockname="terrStone"> <resource blockname="terrOreGravelPlusPotassium" prob="0.4130" rwgGenerationType="all"/> </layer>
 				<layer depth="*" blockname="terrStone"> <resource blockname="terrOrePotassiumNitrate" prob="0.3100" rwgGenerationType="all"/> <resource blockname="terrOreGravelPlusPotassium" prob="0.4130" rwgGenerationType="all"/> </layer> <layer depth="1" blockname="terrStone"/> <layer depth="3" blockname="terrBedrock"/>
@@ -1245,8 +1245,8 @@ If you do not declare them, the decorations of the main biome are used.
 		<!-- Block layers: Wasteland_hub, Local ore: potassiumNitrate -->
 		<layers>
 			<layer filluptorg="60" blockname="water"/>
-			<layer depth="1" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusIron" prob="0.071" rwgGenerationType="all"/> </layer>
-			<layer depth="2" blockname="DFterrRadiated"> <resource blockname="terrOreGravelPlusIron" prob="0.321" rwgGenerationType="all"/> </layer>
+			<layer depth="1" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusIron" prob="0.071" rwgGenerationType="all"/> </layer>
+			<layer depth="2" blockname="terrDestroyedStone"> <resource blockname="terrOreGravelPlusIron" prob="0.321" rwgGenerationType="all"/> </layer>
 			<layer depth="2" blockname="terrDirt"> <resource blockname="terrOreGravelPlusIron" prob="0.321" rwgGenerationType="all"/> </layer>
 			<layer depth="*" blockname="terrStone">
 				<resource blockname="terrOreIron" prob="0.3100" rwgGenerationType="all"/>

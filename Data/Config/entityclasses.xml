@@ -2576,6 +2576,7 @@
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="bear"/>
 
+	<property name="AIGroupCircle" value="1"/>
 	<property name="AIPathCostScale" value=".4, .6"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakBlock"/>
@@ -3363,7 +3364,7 @@
 	<property name="Parent" value="SupplyCrates"/>
 	<property name="Faction" value="none"/>
 	<property name="Weight" value="100"/>
-	<property name="SurfaceCategory" value="resourceWood"/>
+	<property name="SurfaceCategory" value="wood"/>
 	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="200"/>
@@ -3383,7 +3384,7 @@
 	<property name="MaxHealth" value="200"/>
 	<property name="Weight" value="100"/>
 	<property name="HasRagdoll" value="false"/>
-	<property name="SurfaceCategory" value="resourceWood"/>
+	<property name="SurfaceCategory" value="wood"/>
 	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 	<property name="LootListAlive" value="34"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -3762,24 +3763,28 @@
 	<property name="Tags" value="entity,npc"/>
 	<property name="Mesh" value="#Entities/Traders?JoelRagdoll.prefab"/>
 	<property name="NPCID" value="traitorjoel"/>
+	<property name="Archetype" value="TraderJoel"/>
 </entity_class>
 
 <entity_class name="npcTraderRekt" extends="npcTraderTemplate">
 	<property name="Tags" value="entity,npc"/>
 	<property name="Mesh" value="#Entities/Traders?rektRagdoll.prefab"/>
 	<property name="NPCID" value="traderrekt"/>
+	<property name="Archetype" value="TraderRekt"/>
 </entity_class>
 
 <entity_class name="npcTraderBob" extends="npcTraderTemplate">
 	<property name="Tags" value="entity,npc"/>
 	<property name="Mesh" value="#Entities/Traders?BobRagdoll.prefab"/>
 	<property name="NPCID" value="traderbob"/>
+	<property name="Archetype" value="TraderBob"/>
 </entity_class>
 
 <entity_class name="npcTraderHugh" extends="npcTraderTemplate">
 	<property name="Tags" value="entity,npc"/>
 	<property name="Mesh" value="#Entities/Traders?hughRagdoll.prefab"/>
 	<property name="NPCID" value="traderhugh"/>
+	<property name="Archetype" value="TraderHugh"/>
 </entity_class>
 
 <entity_class name="npcTraderJen" extends="npcTraderTemplate">
@@ -4676,6 +4681,13 @@
 	<property name="TimeStayAfterDeath" value="10"/>
 	<property name="DeadBodyHitPoints" value="1000"/> 
 	
+	<property name="MaxTurnSpeed" value="250"/>
+	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
+	<property name="MoveSpeedAggro" value="0.2, 1.25"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedPanic" value="0.55"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="JumpMaxDistance" value="2.8, 3.9"/>
+	
 	<property name="CorpseBlock" value="terrGore"/>
 	<property name="CorpseBlockChance" value="0"/>
 
@@ -4712,7 +4724,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4744,7 +4756,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 	<property name="WalkType" value="2"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4779,7 +4791,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4796,8 +4808,8 @@
 	<property name="WalkType" value="3"/>
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
-	<property name="ApproachSpeed" value="1.35"/>
-	<property name="NightApproachSpeed" value="1.35"/>
+	<property name="ApproachSpeed" value="1.3"/>
+	<property name="NightApproachSpeed" value="1.3"/>
 	<property name="LootDropProb" value="0.08"/> <!-- Feral Zombie. -->
 	<property name="LootDropEntityClass" value="EntityLootContainerNurseFeral"/>
 	<effect_group name="Base Effects">
@@ -4819,7 +4831,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4854,7 +4866,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4893,7 +4905,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4912,7 +4924,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4960,7 +4972,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4979,7 +4991,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -4998,7 +5010,7 @@
 	<property name="MaxHealth" value="250"/>
 	<property name="ExperienceGain" value="700"/>
 	<property name="MoveSpeed" value="0.08"/> <!-- just shambling around -->
-	<property name="MoveSpeedAggro" value=".5, 1.35"/> <!-- chasing a target min/max (like day or night)-->
+	<property name="MoveSpeedAggro" value=".5, 1.3"/> <!-- chasing a target min/max (like day or night)-->
 	<property name="MoveSpeedPanic" value="0.55"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
@@ -6696,8 +6708,8 @@
 	<property name="DeadBodyHitPoints" value="700"/>
 	<property name="WanderSpeed" value="0.8" />
 	<property name="MoveSpeed" value="0.08"/>
-	<property name="MoveSpeedAggro" value="1.2, 1.35"/>
-	<property name="MoveSpeedPanic" value="1.35"/>
+	<property name="MoveSpeedAggro" value="1.2, 1.3"/>
+	<property name="MoveSpeedPanic" value="1.3"/>
 	<property name="CanClimbLadders" value="true"/>
 	<property name="JumpMaxDistance" value="4.8"/>
 	<property name="SoundRandom" value="zombiefemalesnowroam"/>
@@ -6707,7 +6719,7 @@
 	<property name="SoundHurt" value="zombiefemalesnowpain"/>
 	<property name="SoundDeath" value="zombiefemalesnowdeath"/>
 	<property name="SoundSense" value="zombiefemalesnowsense"/>
-	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
 	<property name="HandItem" value="DFhandZombieBehemoth"/>
 	<property name="HeadDismemberBaseChance" value="-.15"/>
 	<property name="HeadDismemberBonusChance" value="0.08"/>
@@ -6797,8 +6809,8 @@
 	<property name="JumpIndexes" value="0" />
 	<property name="WanderSpeed" value="0.8" />
 	<property name="MoveSpeed" value="0.08"/>
-	<property name="MoveSpeedAggro" value="1.2, 1.35"/>
-	<property name="MoveSpeedPanic" value="1.35"/>
+	<property name="MoveSpeedAggro" value="1.2, 1.3"/>
+	<property name="MoveSpeedPanic" value="1.3"/>
     <property name="HasRagdoll" value="false" />
     <property name="RootMotion" value="false" />
 	<!-- AI Stuff -->
@@ -6927,8 +6939,8 @@
 	<property name="JumpIndexes" value="0" />
 	<property name="WanderSpeed" value="0.8" />
 	<property name="MoveSpeed" value="0.08"/>
-	<property name="MoveSpeedAggro" value="1.2, 1.35"/>
-	<property name="MoveSpeedPanic" value="1.35"/>
+	<property name="MoveSpeedAggro" value="1.2, 1.3"/>
+	<property name="MoveSpeedPanic" value="1.3"/>
     <property name="HasRagdoll" value="false" />
     <property name="RootMotion" value="false" />
 	<!-- AI Stuff -->

@@ -6,7 +6,7 @@
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
     <property name="DifficultyTier" value="1"/>
-    <property name="Zoning" value="Industrial"/>
+    <property name="Zoning" value="Industrial,Residential"/>
     <property name="YOffset" value="-2"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="64, 2, 64"/>

@@ -140,9 +140,6 @@
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="male_shirt">
@@ -259,9 +256,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -380,9 +374,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -508,9 +499,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="female_base_chest">
@@ -628,9 +616,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -752,9 +737,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="female_shirt">
@@ -873,9 +855,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -1001,9 +980,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="female_shirt">
@@ -1119,9 +1095,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -1246,9 +1219,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="head" layer="inner" mesh="unisex_armor_cloth_hood">
@@ -1365,9 +1335,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -1492,9 +1459,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="female_shirt">
@@ -1616,9 +1580,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -1748,9 +1709,6 @@
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="female_shirt">
@@ -1867,9 +1825,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -1990,9 +1945,6 @@
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="inner" mesh="male_armor_hide_chest">
@@ -2111,9 +2063,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -2238,9 +2187,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
@@ -2863,7 +2809,7 @@
 			<gene name="breastSize" value="0"/>
 		</dna>
 	</archetype>
-	<archetype name="TraderRekt" male="true" hair_color="185,170,160" eye_color="130,90,75" skin_color="220,220,220" type="None" stance="Dislike" voice_set="trader">
+	<archetype name="TraderRekt" male="true" hair_color="185,170,160" eye_color="130,90,75" skin_color="220,220,220" type="None" stance="Dislike" voice_set="trader" >
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
 				<texture name="male_head_old" color="skin"/>
@@ -3475,9 +3421,6 @@
 			<part slot="feet" layer="base" mesh="male_base_feet">
 				<texture name="male_feet" color="skin"/>
 			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
-			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>
 			<part slot="chest" layer="base" mesh="male_clothes_suit_jacket">
@@ -3599,9 +3542,6 @@
 			</part>
 			<part slot="feet" layer="base" mesh="female_base_feet">
 				<texture name="female_feet" color="skin"/>
-			</part>
-			<part slot="back" layer="base" mesh="unisex_gear_backpack01">
-				<texture name="unisex_gear_backpack01" color="255,255,255"/>
 			</part>
 		</base_mesh_parts>
 		<preview_mesh_parts>

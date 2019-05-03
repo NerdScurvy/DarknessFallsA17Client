@@ -260,7 +260,7 @@
 		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
 		</texture>
 		<sprite pos="200,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-			<label depth="6" width="300" height="30" pos="38,-1" text="{daytitle}: {day|always}" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
+			<label depth="2" width="300" height="30" pos="38,-1" text="{daytitle}: [{daycolor|always}]{day|always}[-]" font_size="28" pivot="center" effect="outline" upper_case="true" justify="center"/>
 		</sprite>
 	</window>
 
@@ -2742,7 +2742,7 @@
 
 			<rect depth="2" name="categorySelector" width="645" height="44" pos="3,-6">
 				<sprite name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="645" height="49" color="[black]" type="sliced" fillcenter="false" />
-				<sprite color="[mediumGrey]" type="sliced" width="639" />
+				<!-- <sprite color="[mediumGrey]" type="sliced" width="639" /> -->
 				<grid name="categories" pos="2,-7" rows="1" cols="15" width="390" height="43" cell_width="43" cell_height="43" repeat_content="true" controller="CategoryList">
 					<category_icon />
 				</grid>
@@ -3960,7 +3960,7 @@
 			<sprite depth="8" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" />
 
 			<combobox name="cbxTarget" type="ComboBoxList`1[EChatType]" value_max="party" pos="2, -6" width="100" height="22" font_size="22" localization_prefix="xuiChatTarget" />
-			<textfield name="txtInput" backgroundcolor="[transparent]" depth="2" pos="110,-2" width="386" height="28" justify="left" overflow="ClampContent" max_line_count="1" font_face="AgencyB" crispness="Never" />
+			<textfield name="txtInput" backgroundcolor="[transparent]" depth="2" pos="110,-16" width="386" height="28" pivot="left" justify="left" overflow="ClampContent" max_line_count="1" font_face="AgencyB" crispness="Never" />
 		</rect>
 	</window>
 
@@ -4020,7 +4020,7 @@
 	<window name="DFallsingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="DFalls" depth="0" size="888,666" texture="@file:Mods\DarknessFalls\UI\MainMenu\darknessfallsLogo.png" material="Materials/Transparent Colored" pos="-299,255" />
 		<!-- <label name="DFalls" pos="0, -80" depth="0" size="250,33" text="Darkness Falls" font_size="64" effect="outline" color="[red]" justify="center" /> -->
-		<label name="DFallsVersion" pos="0, -240" depth="0" size="250,33" text="V2.03C" font_size="42" effect="outline" color="[white]" justify="center" />
+		<label name="DFallsVersion" pos="0, -240" depth="0" size="250,33" text="V2.04" font_size="42" effect="outline" color="[white]" justify="center" />
 		<grid name="buttons" pos="0, -275" cols="1" width="250" cell_width="250" cell_height="48" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnInvite" depth="3" width="250" height="38" caption_key="xuiMenuInvite" font_size="32" />
 			<simplebutton name="btnOptions" depth="3" width="250" height="38" caption_key="xuiMenuOptions" font_size="32" />
@@ -4070,8 +4070,8 @@
 	
 	<!-- Time To Trader Window Mod -->
 	
-	<window name="mapTimeHUD" width="400" height="32" pos="-115,-125" controller="MapStats" anchor="CenterTop">		
-			<label depth="2" name="dayTimeLabel" pos="-20,-65" width="172" height="30" text="{mapdaytimetitle}: [DECEA3]{mapdaytime}[-]" font_size="30" effect="outline" />
+	<window name="mapTimeHUD" width="400" height="32" pos="-140,-125" controller="MapStats" anchor="CenterTop">		
+			<label depth="2" name="dayTimeLabel" pos="-20,-65" width="172" height="30" text="{mapdaytimetitle}: [DECEA3]{mapdaytime}[-]" font_size="30" effect="outline" foregroundlayer="true"/>
 	</window>
 	
 	<!-- Radio Time Mod -->

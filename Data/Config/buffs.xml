@@ -3247,7 +3247,8 @@ icon="ui_game_symbol_pack_mule"
 		<stack_type value="duration"/>
 		<duration value="180"/>
 		<effect_group>
-			<passive_effect name="Bartering" operation="base_add" value=".2" />
+			<passive_effect name="BarteringBuying" operation="base_add" value=".2" />
+			<passive_effect name="BarteringSelling" operation="base_add" value=".2" />
 		</effect_group>
 	</buff>
 

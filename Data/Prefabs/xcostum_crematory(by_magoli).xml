@@ -6,13 +6,13 @@
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
     <property name="DifficultyTier" value="1"/>
-    <property name="Zoning" value="ResidentialNew"/>
+    <property name="Zoning" value="ResidentialNew,ResidentialOld,Residential"/>
     <property name="RotationToFaceNorth" value="2"/>
     <property name="YOffset" value="-4"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="32, 2, 32"/>
     <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
-    <property name="AllowedTownships" value="city,town"/>
+    <property name="AllowedTownships" value="city,rural,town"/>
     <property name="EditorGroups" value="Wilderness"/>
     <property name="SleeperVolumeStart" value="1, 1, 1"/>
     <property name="SleeperVolumeSize" value="17, 10, 16"/>

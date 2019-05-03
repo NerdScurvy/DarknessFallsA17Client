@@ -6,7 +6,7 @@
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
     <property name="DifficultyTier" value="1"/>
-    <property name="Zoning" value="Industrial"/>
+    <property name="Zoning" value="Downtown"/>
     <property name="RotationToFaceNorth" value="1"/>
     <property name="YOffset" value="-9"/>
     <property name="DistantPOIYOffset" value="0"/>

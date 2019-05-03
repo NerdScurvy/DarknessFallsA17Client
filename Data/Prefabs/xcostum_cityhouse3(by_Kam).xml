@@ -6,13 +6,13 @@
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
     <property name="DifficultyTier" value="3"/>
-    <property name="Zoning" value="Commercial,Downtown,ResidentialNew,ResidentialOld"/>
+    <property name="Zoning" value="Commercial,Downtown,ResidentialNew,ResidentialOld,Residential"/>
     <property name="RotationToFaceNorth" value="2"/>
     <property name="YOffset" value="-4"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="32, 2, 32"/>
     <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
-    <property name="AllowedTownships" value="city,town"/>
+    <property name="AllowedTownships" value="city,rural,town"/>
     <property name="EditorGroups" value="Wilderness"/>
     <property name="SleeperVolumeStart" value="19, 1, 9#35, 1, 9#8, 1, 11#40, 5, 12#18, 5, 10#11, 5, 8#18, 10, 11#16, 10, 9#7, 10, 8#8, 15, 9#30, 15, 13#40, 15, 15#33, 15, 9#6, 19, 6"/>
     <property name="SleeperVolumeSize" value="16, 3, 15#10, 3, 15#10, 3, 13#6, 3, 13#22, 3, 16#7, 3, 5#12, 4, 13#18, 4, 5#8, 3, 16#6, 4, 15#10, 3, 11#5, 3, 9#13, 3, 5#41, 5, 20"/>

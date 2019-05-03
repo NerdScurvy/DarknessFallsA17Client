@@ -6,7 +6,7 @@
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
     <property name="DifficultyTier" value="2"/>
-    <property name="Zoning" value="any"/>
+    <property name="Zoning" value="Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld,Residential"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="64, 2, 64"/>
     <property name="AllowedBiomes" value="burnt_forest,snow,plains,desert,wasteland"/>

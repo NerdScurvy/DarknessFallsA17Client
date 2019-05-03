@@ -76,7 +76,7 @@
 			character_limit="${character_limit|0}" validation="${validation|none}" backgroundcolor="${backgroundcolor|[black]}" style="press, select" on_hover="${on_hover|false}" snapCursor="true" virtual_keyboard_prompt="${virtual_keyboard_prompt|}"
 			disableautobackground="true" search_field="${search_field|false}" password_field="${password_field|false}" pivot="${pivot|topleft}" visible="${visible|true}" on_return="${on_return|submit}">
 			<sprite depth="0" name="background" color="${backgroundcolor|[black]}" type="sliced" pivot="${pivot|topleft}" foregroundlayer="${foregroundlayer|false}" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" />
-			<label depth="1" name="text" justify="${justify|center}" font_size="${height|32}" pivot="${pivot|topleft}" overflow="${overflow|ShrinkContent}" max_line_count="${max_line_count|0}" font_face="${font_face|AgencyB_32p}" crispness="${crispness|Always}" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" />
+			<label depth="1" name="text" justify="${justify|center}" font_size="${Defined(font_size) ? font_size : height|32}" pivot="${pivot|topleft}" overflow="${overflow|ShrinkContent}" max_line_count="${max_line_count|0}" font_face="${font_face|AgencyB_32p}" crispness="${crispness|Always}" width="${Defined(password_field) and password_field ? width-height-10 : width|200}" />
 			<button name="btnShowPassword" pos="${width-height/2-5|180},-${height/2|-16}" width="${height-2}" height="${height-2}" sprite="ui_game_symbol_stealth" defaultcolor="180,180,180" hovercolor="[white]" selectedcolor="[selectedColor]" foregroundlayer="true" type="simple" hoverscale="1.1" pivot="center" tooltip_key="xuiShowPassword" selected="{showpassword}" visible="{passwordfield}" />
 		</panel>
 	</textfield>
@@ -312,7 +312,7 @@
 			
 			<sprite depth="5" name="disabledOverlay" width="57" height="57" color="[darkGrey_half_alpha]" pos="1,-1" type="sliced" visible="false"/>
 			
-			<label depth="7" name="stackValue" pos="-2,-40" width="55" height="17" text="{itemcount}" font_size="18" effect="outline" justify="center" />
+			<label depth="7" name="stackValue" pos="-15,-40" width="70" height="28" text="{itemcount}" font_size="18" effect="outline" justify="center" />
 			<label depth="7" name="timer" pos="35,-33" width="55" height="21" font_size="18" justify="center" pivot="center" effect="outline" color="[beige]"/>
 			<sprite depth="9" name="cancel" sprite="ui_game_symbol_x" width="55" height="55" color="255,0,0,255" type="sliced" visible="false" foregroundlayer="true"/>
 			<!--#$-IGS BEGIN: Setting itemName above the soft cursor. -$#-->

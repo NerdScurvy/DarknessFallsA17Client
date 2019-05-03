@@ -7,13 +7,13 @@
     <property name="ExcludePOICulling" value="False"/>
     <property name="QuestTags" value="clear,fetch,hidden_cache"/>
     <property name="DifficultyTier" value="1"/>
-    <property name="Zoning" value="Commercial"/>
+    <property name="Zoning" value="Commercial,Downtown,Industrial,Residential"/>
     <property name="RotationToFaceNorth" value="2"/>
     <property name="YOffset" value="-1"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="32, 2, 32"/>
     <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
-    <property name="AllowedTownships" value="city"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
     <property name="EditorGroups" value="Wilderness"/>
     <property name="SleeperVolumeStart" value="3, 1, 9#11, 1, 12#20, 1, 15#29, 1, 12"/>
     <property name="SleeperVolumeSize" value="8, 6, 28#9, 6, 25#9, 6, 23#14, 6, 25"/>

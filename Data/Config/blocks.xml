@@ -16907,6 +16907,7 @@ NOT the TextureNumber.
 	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="Commercial/store_shelving01" param1="main_mesh"/>
+	<property name="Path" value="solid"/>
 	<property class="RepairItems"> <property name="resourceForgedIron" value="3"/> </property>
 	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
@@ -16917,7 +16918,6 @@ NOT the TextureNumber.
 
 <block name="storeShelving01Double">
 	<property name="Extends" value="storeShelving01"/>
-	<property name="Path" value="solid"/>
 	<property name="Model" value="Commercial/store_shelving01_double" param1="main_mesh"/>
 </block>
 
@@ -17352,9 +17352,9 @@ NOT the TextureNumber.
 	<property name="Material" value="Mstone"/>
 	<property name="MaxDamage" value="1"/>
 	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
-	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
-	<property name="Mesh" value="models"/>
-	<property name="Model" value="Rocks/Rock01" param1="main_mesh"/>
+	<property name="Shape" value="New"/> <property name="Texture" value="175"/>
+	<property name="Mesh" value="cutoutmoveable"/>
+	<property name="Model" value="rock01"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -17367,67 +17367,67 @@ NOT the TextureNumber.
 <block name="rock02">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock02" param1="main_mesh"/>
+	<property name="Model" value="rock02"/>
 </block>
 
 <block name="rock03">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock03" param1="main_mesh"/>
+	<property name="Model" value="rock03"/>
 </block>
 
 <block name="rock04">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock04" param1="main_mesh"/>
+	<property name="Model" value="rock04"/>
 </block>
 
 <block name="rock05">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock05" param1="main_mesh"/>
+	<property name="Model" value="rock05"/>
 </block>
 
 <block name="rock06">
-	<property name="Extends" value="rock01"/>
+	<property name="Extends" value="rock02"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock06" param1="main_mesh"/>
+	<property name="Model" value="rock06"/>
 </block>
 
 <block name="rock07">
-	<property name="Extends" value="rock01"/>
+	<property name="Extends" value="rock04"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock07" param1="main_mesh"/>
+	<property name="Model" value="rock07"/>
 </block>
 
 <block name="rock08">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock08" param1="main_mesh"/>
+	<property name="Model" value="rock01"/>
 </block>
 
 <block name="rock09">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock09" param1="main_mesh"/>
+	<property name="Model" value="rock01"/>
 </block>
 
 <block name="rock10">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock10" param1="main_mesh"/>
+	<property name="Model" value="rock01"/>
 </block>
 
 <block name="rock11">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock11" param1="main_mesh"/>
+	<property name="Model" value="rock01"/>
 </block>
 
 <block name="rock12">
 	<property name="Extends" value="rock01"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="Model" value="Rocks/Rock12" param1="main_mesh"/>
+	<property name="Model" value="rock01"/>
 </block>
 
 <block name="rockResource"> <!-- biome decoration -->
@@ -27349,6 +27349,28 @@ ore block visualisation end -->
 	<!-- <property name="DowngradeBlock" value="steelBarsCentered"/> -->
 </block>
 
+<block name="DFtitaniumBars">
+	<property name="CustomIcon" value="titaniumBars"/>
+	<property name="Material" value="DFtitanium"/>
+	<property name="MaxDamage" value="25000"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Texture" value="435"/>
+	<property name="ImposterExclude" value="true"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Collide" value="movement,melee,rocket"/>
+	<property class="RepairItems"> <property name="DFforgedTitanium" value="10"/> </property>
+	<drop event="Harvest" name="scrapIron" count="32"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="titaniumBarsDesc"/>
+	<!-- <property name="DowngradeBlock" value="steelBarsCentered"/> -->
+</block>
+
 <!-- DF Animal Snares and Coops -->
  
 <block name="DFchickenCoop">
@@ -27532,7 +27554,7 @@ ore block visualisation end -->
 <block name="carAmbulance">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="7"/>
+	<property name="LootList" value="168"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -27642,7 +27664,7 @@ ore block visualisation end -->
 <block name="DFcarAmbulanceDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="7"/>
+	<property name="LootList" value="168"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28114,7 +28136,7 @@ ore block visualisation end -->
 <block name="DFcarFireTruck">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="53"/>
+	<property name="LootList" value="169"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28146,7 +28168,7 @@ ore block visualisation end -->
 <block name="DFcarFireTruckDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="53"/>
+	<property name="LootList" value="169"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28184,7 +28206,7 @@ ore block visualisation end -->
 <block name="DFcarSchoolbus">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="43"/>
+	<property name="LootList" value="170"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28216,7 +28238,7 @@ ore block visualisation end -->
 <block name="DFcarSchoolbusDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="43"/>
+	<property name="LootList" value="170"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28254,7 +28276,7 @@ ore block visualisation end -->
 <block name="DFcarMailtruck">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="14"/>
+	<property name="LootList" value="171"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28286,7 +28308,7 @@ ore block visualisation end -->
 <block name="DFcarMailtruckDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="14"/>
+	<property name="LootList" value="171"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28395,7 +28417,7 @@ ore block visualisation end -->
 <block name="DFcarPolice">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="36"/>
+	<property name="LootList" value="172"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28427,7 +28449,7 @@ ore block visualisation end -->
 <block name="DFcarPoliceDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="36"/>
+	<property name="LootList" value="172"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -28466,7 +28488,7 @@ ore block visualisation end -->
 <block name="DFcarGarbageTruck">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="16"/>
+	<property name="LootList" value="173"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28498,7 +28520,7 @@ ore block visualisation end -->
 <block name="DFcarGarbageTruckDmg">
 	<property name="Material" value="Mmetal"/>
 	<property name="Class" value="CarExplodeLoot"/>
-	<property name="LootList" value="16"/>
+	<property name="LootList" value="173"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Place" value="TowardsPlacer"/>
@@ -28788,10 +28810,10 @@ ore block visualisation end -->
 	<property name="RequiredPower" value="5" />
 	<property name="Group" value="Science" />
 	<property class="RepairItems">
-		<property name="forgedIron" value="1" />
+		<property name="resourceForgedIron" value="10" />
 	</property>
-	<drop event="Harvest" name="electricParts" count="1" prob="0.2" tool_category="Disassemble" />
-	<drop event="Destroy" name="scrapIron" count="1,5" prob="1" />
+	<drop event="Harvest" name="resourceElectricParts" count="1" prob="0.2" tool_category="Disassemble" />
+	<drop event="Destroy" name="resourceScrapIron" count="1,5" prob="1" />
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
 	<property name="Stacknumber" value="250" />
 	<property name="TakeDelay" value="5" />
@@ -28816,7 +28838,7 @@ ore block visualisation end -->
 	<property name="RotationAllowed" value="pivotOnFloor" />
 	<property name="Model" value="#SDXBasicElevatorModels.unity3d?SDXElevator3x3Prefab" />
 	<property class="RepairItems">
-		<property name="forgedSteel" value="500" />
+		<property name="resourceForgedSteel" value="50" />
 	</property>
 	<drop event="Destroy" count="0" />
 	<property name="Group" value="Building" />
@@ -28848,7 +28870,7 @@ ore block visualisation end -->
 	<property name="Material" value="Mwood" />
 	<property name="Weight" value="1"/>
 	<property class="RepairItems">
-		<property name="forgedSteel" value="20" />
+		<property name="resourceForgedSteel" value="25" />
 	</property>
 	<drop event="Destroy" count="0" />
 	<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
@@ -29502,7 +29524,7 @@ ore block visualisation end -->
 	<property name="Weight" value="90"/>
 	<property name="Map.Color" value="75, 9, 83"/>
 	<property class="RepairItems"> <property name="resourceCobblestones" value="6"/> </property>
-	<property name="HarvestOverdamage" value="true"/> <!-- Turned this back on because Steel+ tools are SHITE otherwise. So are mods -->
+	<property name="HarvestOverdamage" value="true"/> 
 	<drop event="Harvest" name="resourceCrushedSand" count="4" tag="oreWoodHarvest"/>
 	<drop event="Harvest" name="resourceRockSmall" count="12" tag="oreWoodHarvest"/>
 	<drop event="Destroy" count="0"/>
@@ -29515,6 +29537,76 @@ ore block visualisation end -->
 	<property name="SortOrder2" value="0050"/>
 	<property name="DisplayType" value="blockTerrainFertile" />
 </block>
+
+<!-- <block name="ScifiPortalOn">
+	<property name="Class" value="Spawner, Mods" />		
+	<property name="Material" value="Mmetal_hard" />		
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Portals.unity3d?SciFiPortalOn.prefab"/>
+	<property name="TickRate" value="1000" />
+	<property name="SpawnRadius" value="100" />
+	<property name="SpawnArea" value="5" />
+	<property name="NumberToSpawn" value="5" />
+	<property name="MaxSpawned" value="25" />
+	<property name="CheckArea" value="100" />
+	<property name="EntityGroup" value="ZombiesDayNoUMA" />
+	<property name="CanPickup" value="false" />
+	<property name="MultiBlockDim" value="5,7,3"/>
+	<property name="DowngradeBlock" value="ScifiPortalOff" />	
+	<property name="Group" value="Building" />
+	<property name="CreativeMode" value="Dev"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="3"/> </property>
+	<drop event="Harvest" name="resourceForgedSteel" count="2" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="ScifiPortalOff">	
+	<property name="Class" value="Loot" />
+	<property name="LootList" value="92" />	
+	<property name="Material" value="Mmetal_hard" />
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Portals.unity3d?SciFiPortalOff.prefab"/>			
+	<property name="CanPickup" value="false" />	
+	<property name="MultiBlockDim" value="5,7,3"/>
+	<property name="Group" value="Building" />
+</block>
+
+<block name="DemonPortalOn">
+	<property name="Class" value="Spawner, Mods" />		
+	<property name="Material" value="Mstone" />		
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Portals.unity3d?DemonPortalOn.prefab"/>
+	<property name="TickRate" value="1000" />
+	<property name="SpawnRadius" value="25" />
+	<property name="SpawnArea" value="15" />
+	<property name="NumberToSpawn" value="5" />
+	<property name="MaxSpawned" value="25" />
+	<property name="CheckArea" value="100" />
+	<property name="EntityGroup" value="ZombiesDayNoUMA" />
+	<property name="CanPickup" value="false" />
+	<property name="MultiBlockDim" value="10,10,2"/>
+	<property name="DowngradeBlock" value="ScifiPortalOff" />	
+	<property name="Group" value="Building" />
+	<property name="CreativeMode" value="Dev"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="3"/> </property>
+	<drop event="Harvest" name="resourceForgedSteel" count="2" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="DemonPortalOff">	
+	<property name="Class" value="Loot" />
+	<property name="LootList" value="92" />	
+	<property name="Material" value="Mmetal_hard" />
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#Portals.unity3d?DemonPortalOff.prefab"/>	
+	<property name="CanPickup" value="false" />	
+	<property name="MultiBlockDim" value="10,10,2"/>
+	<property name="Group" value="Building" />
+</block> -->
+
+<!-- Temporarily disabled until I work out why the particles don't work -->
 
 <!--
 Block replacements

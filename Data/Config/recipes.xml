@@ -220,7 +220,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceCloth" count="10"/>
 </recipe>
 
-<recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+<recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" always_unlocked="true">
 	<ingredient name="foodEgg" count="2"/>
 	<ingredient name="foodRawMeat" count="5"/>
 </recipe>
@@ -5878,7 +5878,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="DFgunM4A1" craft_area="workbench" count="1" tags="learnable">
 	<ingredient name="DFautoRifleParts" count="1"/>
 	<ingredient name="DFautoRifleBarrel" count="1"/>
-	<ingredient name="DFautoRifleBarrel" count="1"/>
+	<ingredient name="DFautoRifleStock" count="1"/>
 	<ingredient name="DFM4A1Receiver" count="1"/>
 </recipe>
 

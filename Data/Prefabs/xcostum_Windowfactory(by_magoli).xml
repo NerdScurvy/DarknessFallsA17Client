@@ -7,7 +7,7 @@
     <property name="ExcludePOICulling" value="False"/>
     <property name="QuestTags" value="clear,fetch,hidden_cache"/>
     <property name="DifficultyTier" value="1"/>
-    <property name="Zoning" value="Industrial"/>
+    <property name="Zoning" value="Downtown,Industrial,Residential"/>
     <property name="YOffset" value="-5"/>
     <property name="DistantPOIYOffset" value="0"/>
     <property name="StaticSpawner.Size" value="64, 2, 64"/>

@@ -836,7 +836,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.1,0.2" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="2,2.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -993,7 +993,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.1,0.2" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="2,2.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -1028,7 +1028,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.2,0.3" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="3,3.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -1149,7 +1149,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.1,0.2" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="2,2.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Iron Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -1194,7 +1194,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.2,0.3" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="3,3.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -1238,7 +1238,7 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.2,0.3" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="3,3.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
 	</effect_group>
 
 	<effect_group name="Power Attack">
@@ -1386,7 +1386,7 @@ We _want_ players to specialise so we also have to make it feasible.
 
 		<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="3"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.06,0.11" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="2,2.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Powered Tool Harvest Bonus -->
 	</effect_group>
 </item>
 
@@ -1455,7 +1455,7 @@ We _want_ players to specialise so we also have to make it feasible.
 
 		<passive_effect name="DegradationMax" operation="base_set" value="3000,6000" tier="1,6"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="3"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.06,0.11" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Steel Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="2,2.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Powered Tool Harvest Bonus -->
 	</effect_group>
 </item>
 
@@ -5916,7 +5916,8 @@ So no clothing dyes until that can be resolved. -->
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="PerkLevel" tags="perkStrength" operation="base_add" value="1"/>
-		<passive_effect name="Bartering" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value="0.1"/>
 	</effect_group>
 </item>
 
@@ -5930,8 +5931,8 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CreativeMode" value="Dev"/>
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="PerkLevel" tags="perkStrength" operation="base_add" value="1"/>
-		<passive_effect name="Bartering" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value="0.1"/>
 	</effect_group>
 </item>
 
@@ -6437,21 +6438,62 @@ So no clothing dyes until that can be resolved. -->
 	<property class="UMA">
 		<property name="Overlay0Tint" value="87,87,87"/>-->
 
-<item name="backpackMedium">
-	<property name="CreativeMode" value="Dev"/>
-	<property name="Material" value="Morganic"/>
+<item name="backpackSmall">
+	<property name="CustomIcon" value="backpackMedium" />
+	<property name="CustomIconTint" value="5C1505"/>
+	<property name="DescriptionKey" value="backpackSmallDesc" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mcloth"/>
 	<property name="Stacknumber" value="1"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="FuelValue" value="2"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Tags" value="upperbody,clothing"/>
+	<property name="DisplayType" value="clothing"/>
 	<property name="EquipSlot" value="Back"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="150,300" tier="1,6"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="10"/>
+		<display_value name="dCarryCapacity" value="10"/>
+	</effect_group>
 	<property class="UMA">
 		<property name="Mesh" value="gear_backpack01"/>
 		<property name="Overlay0" value="gear_backpack01"/>
 		<property name="Layer" value="3"/>
-		<property name="UISlot" value="Backpack"/>
+		<property name="UISlot" value="Shirt"/>
+	</property>
+	<property name="Group" value="Clothing"/>
+</item>
+
+<item name="backpackMedium">
+	<property name="CustomIcon" value="backpackMedium" />
+	<!-- <property name="CustomIconTint" value="5C1505"/> -->
+	<property name="DescriptionKey" value="backpackMediumDesc" />
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mleather"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="FuelValue" value="2"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Tags" value="upperbody,clothing"/>
+	<property name="DisplayType" value="clothing"/>
+	<property name="EquipSlot" value="Back"/>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="150,300" tier="1,6"/>
+		<passive_effect name="CarryCapacity" operation="base_add" value="20"/>
+		<display_value name="dCarryCapacity" value="20"/>
+	</effect_group>
+	<property class="UMA">
+		<property name="Mesh" value="gear_backpack01"/>
+		<property name="Overlay0" value="gear_backpack01"/>
+		<property name="Layer" value="3"/>
+		<property name="UISlot" value="Shirt"/>
 	</property>
 	<property name="Group" value="Clothing"/>
 </item>
@@ -6460,7 +6502,6 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Tags" value="upperbody,chest,clothing"/>
 	<property name="DisplayType" value="clothing"/>
 	<property name="Stacknumber" value="1"/>
-	<!-- <property name="Encumbrance" value="0.001"/> -->
 	<property name="Material" value="Mcloth"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="Weight" value="25"/>
@@ -11910,6 +11951,10 @@ So no clothing dyes until that can be resolved. -->
 		<property name="VehicleTankSize" value="1000, 2000"/>
 		<property name="VehicleFuelItem" value="ammoGasCan"/>
 	</property>
+	<effect_group>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="5000,10000" tier="1,6"/>
+	</effect_group>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 </item>
 
@@ -12657,7 +12702,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0,0.1" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="1,1.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
@@ -12721,7 +12766,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0,0.1" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="1,1.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
@@ -12761,7 +12806,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0,0.1" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="1,1.5" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Scrap Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
@@ -12978,7 +13023,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.3,0.4" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="5,6" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
@@ -13043,7 +13088,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.3,0.4" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="5,6" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.7" tags="secondary"/>
@@ -13084,7 +13129,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.3,0.4" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="5,6" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.3" tags="secondary"/>
@@ -13230,7 +13275,7 @@ So no clothing dyes until that can be resolved. -->
 
 		<passive_effect name="DegradationMax" operation="base_set" value="6000,12000" tier="1,6"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="3"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.09,0.14" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="3,4" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Powered Titanium Tool Harvest Bonus -->
 	</effect_group>
 </item>
 
@@ -13281,7 +13326,7 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 
 		<passive_effect name="EntityDamage" operation="base_set" value="12"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="45"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="50"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="wood"/>
 
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
@@ -13304,7 +13349,7 @@ So no clothing dyes until that can be resolved. -->
 
 		<passive_effect name="DegradationMax" operation="base_set" value="6000,12000" tier="1,6"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="3"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="0.09,0.14" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Titanium Tool Harvest Bonus -->
+		<passive_effect name="HarvestCount" operation="perc_add" value="3,4" tier="1,6" tags="oreWoodHarvest"/> <!-- DF Powered Titanium Tool Harvest Bonus -->
 	</effect_group>
 </item>
 
@@ -15447,7 +15492,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="armorMilitaryHelmet"/>
 	<property name="CustomIconTint" value="0033FF"/>
 	<property name="DescriptionKey" value="titaniumArmorDesc"/>
-	<property name="Tags" value="head,armor,armorHead,lightarmor,heavyarmor"/>
+	<property name="Tags" value="head,armor,armorHead,heavyarmor"/>
 	<property name="EquipSlot" value="Head"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -15475,7 +15520,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="armorMilitaryVest"/>
 	<property name="CustomIconTint" value="0033FF"/>
 	<property name="DescriptionKey" value="titaniumArmorDesc"/>
-	<property name="Tags" value="upperbody,chest,armor,armorChest,lightarmor,heavyarmor"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest,heavyarmor"/>
 	<property name="EquipSlot" value="Chest"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -15502,7 +15547,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="armorMilitaryGloves"/>
 	<property name="CustomIconTint" value="0033FF"/>
 	<property name="DescriptionKey" value="titaniumArmorDesc"/>
-	<property name="Tags" value="upperbody,hands,armor,armorHands,lightarmor,heavyarmor"/>
+	<property name="Tags" value="upperbody,hands,armor,armorHands,heavyarmor"/>
 	<property name="EquipSlot" value="Hands"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -15529,7 +15574,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="armorMilitaryLegs"/>
 	<property name="CustomIconTint" value="0033FF"/>
 	<property name="DescriptionKey" value="titaniumArmorDesc"/>
-	<property name="Tags" value="lowerbody,legs,armor,armorLegs,lightarmor,heavyarmor"/>
+	<property name="Tags" value="lowerbody,legs,armor,armorLegs,heavyarmor"/>
 	<property name="EquipSlot" value="Legs"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -15556,7 +15601,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="armorMilitaryBoots"/>
 	<property name="CustomIconTint" value="0033FF"/>
 	<property name="DescriptionKey" value="titaniumArmorDesc"/>
-	<property name="Tags" value="lowerbody,feet,armor,armorFeet,lightarmor,heavyarmor"/>
+	<property name="Tags" value="lowerbody,feet,armor,armorFeet,heavyarmor"/>
 	<property name="EquipSlot" value="Feet"/>
 	<effect_group>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
@@ -17355,6 +17400,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Weight" value="2"/>
 	<property name="Group" value="Special Items"/>
 </item>
+
 
 <!-- DF Gun Parts -->
 

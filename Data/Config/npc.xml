@@ -70,7 +70,7 @@
 		portrait=""
 		greeting_type="nearby"
 		stance="Like" voice_set="femaletrader"
-		trader_id="1" dialog_id="trader" />
+		trader_id="2" dialog_id="trader" />
 		
 	<npc_info
 		id="GuardCaptain"
